@@ -1,14 +1,26 @@
+# Dependencies
 node_modules/
+
+# Next.js
 .next/
+
+# Build outputs
 dist/
 build/
+
+# Tests
 coverage/
 
+# Environment variables
 .env
 .env.*
 !.env.example
 
+# Logs
 *.log
+
+# OS
 .DS_Store
 
+# TypeScript
 *.tsbuildinfo
